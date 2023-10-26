@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quantico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #047480;
+	font-family: "Quantico", Sans-serif;
+	font-size: 62.5%;
+
+}
+
+header{
+    background-color: #98ffc0;
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+
+#container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#menuButtons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.5rem;
+}
+
+#menuButtons button{
+    background-color: #98ffc0;
+    padding: 0.8rem;
+    font-family: "Quantico", Sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ffffff;
+    outline: none;
+	color: #2C8E99;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	letter-spacing: 0.5px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+}
+
+#menuButtons button:hover {
+	background-color: #b4ffd1   ;
+	color: black;
+}
+
+
+#squareContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.5%;
+    border-radius: 15%;
+    background-color: #7bcdd6;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #000000;
+} 
+
+h1 {
+	color: white;
+	background-color: #047480;
+	font-size: 3.5em;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 0;
+    border: 1px solid #000000;
+
+}
+
+#showRGB {
+	display: block;
+	font-size: 1em;
+}
+
+
+#message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 1.5em;
+	width: 20%;
+    
+}
+
+.mode.selected {
+    background-color: #30ff7f !important;
+    color: black !important;
+}
